@@ -1,0 +1,14 @@
+ru:
+  spree:
+    contact_us_title: "Связаться с нами"
+    sent_by_contact_form: "Отправлено через форму обратной связи от %{email}"
+    sent_by_name: "Отправлено  %{name} от %{email}"
+    subject: "Сообщение от %{email}"
+    submit: "Отправить"
+
+    contact_us:
+      name: "Ваше имя"
+      subject: "Тема"
+      message: "Сообщение"
+      notices:
+        success: "Сообщение успешно отправлено."

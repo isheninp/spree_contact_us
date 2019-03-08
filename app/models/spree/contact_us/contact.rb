@@ -20,8 +20,8 @@ module Spree
       validates :email,   :format => { :with => EMAIL_REGEX },
                           :presence => true
       validates :message, :presence => true
-      validates :name,    :presence => {:if => Proc.new{SpreeContactUs.require_name}}
-      validates :subject, :presence => {:if => Proc.new{SpreeContactUs.require_subject}}
+      #validates :name,    :presence => {:if => Proc.new{SpreeContactUs.require_name}}
+      #validates :subject, :presence => {:if => Proc.new{SpreeContactUs.require_subject}}
 
       def initialize(attributes = {})
         [:email, :message, :name, :subject].each do |attribute|
